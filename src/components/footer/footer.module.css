@@ -1,0 +1,68 @@
+.containerfooter {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #F16A22;
+    color: #FFFFFF;
+    height: 360px;
+    /* width: 100%; */
+
+    padding-left: 113px;
+    padding-right: 80px;
+}
+
+
+.leftlogo {
+    display: flex;
+    /* 👆yazının en alta gitmesini sağladım */
+    justify-content: space-between;
+    flex-direction: column;
+
+    height: 100%;
+}
+
+.leftlogo img {
+    padding-top: 47px;
+    /* 👆Bugfix ile container ın arasını ayarladık  */
+    height: 56px;
+    width: 200px;
+}
+
+.leftlogo p {
+    padding-bottom: 36px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    gap: 56px;
+}
+
+.col {
+    gap: 34px;
+}
+
+.title {
+    font-size: 21px;
+    font-weight: 900;
+
+}
+
+.col ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 14px;
+}
+
+.col li {
+    list-style: none;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    opacity: 70%;
+    cursor: pointer;
+
+}

@@ -1,0 +1,12 @@
+.ulContainer {
+    font-family: Hartwell;
+    display: flex;
+    gap: 56px;
+
+}
+
+.navlistitem {
+    list-style: none;
+    font-size: 24px;
+
+}
