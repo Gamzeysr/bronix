@@ -11,12 +11,13 @@ const ContactUs = () => {
                 <img className={ContactUsStyle["img"]} src={contactUsImg} alt="Contact-Us-Img" />
             </div>
             <div>
-                <div>
-                    <input type="text" placeholder='  Name' />
-                    <input type="email" placeholder='  Email' />
-                    <input type="text" placeholder='  Your message' />
+                <div className={ContactUsStyle["input"]}>
+                    <input type="text" placeholder="  Name" required />
+                    <input type="email" placeholder="  Email" required />
+                    <textarea name="text" className={ContactUsStyle["textarea"]} cols="50" rows="10" placeholder=" Your message" required></textarea>
                 </div>
-                <button className={ContactUsStyle["send-button"]} type="send">Send</button>
+
+                <button className={ContactUsStyle["send-button"]} type="send" >Send</button>
             </div>
         </div>
     )
