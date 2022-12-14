@@ -3,13 +3,22 @@
     display: flex;
     gap: 56px;
 
+
+
 }
 
 .navlistitem {
     list-style: none;
     font-size: 24px;
 
+
+    color: #314b18;
+
+    /* border: solid red; */
+
 }
+
+
 
 .active {
     font-weight: 700;
@@ -18,8 +27,8 @@
 .ulimgContainer {
     /* border: solid red; */
     display: flex;
-    justify-content: space-around;
-    /* justify-content: space-between; */
+
+    justify-content: space-between;
     align-items: center;
     /* 👆yazıları img yı bıraz daha ortaladık  */
     padding-top: 53px;
@@ -51,4 +60,5 @@
 .ptext {
     font-size: 24px;
     margin-top: 16px;
+    color: #181E4B;
 }

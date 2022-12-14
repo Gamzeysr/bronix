@@ -1,6 +1,7 @@
 import Header from "./components/header/Navbar";
 import Footer from "./components/footer/Footer";
 import ContactUs from "./components/contactus/ContactUs";
+import Main from "./components/main/Card";
 
 
 
@@ -10,6 +11,7 @@ function App() {
     <>
 
       <Header />
+      <Main />
       <ContactUs />
       <Footer />
 

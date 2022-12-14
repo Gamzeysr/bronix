@@ -13,7 +13,7 @@ const Navbar = () => {
                 <ul className={NavbarStyle["ulContainer"]}>
                     <li className={NavbarStyle["navlistitem"]}>About Us</li>
                     <li className={NavbarStyle["navlistitem"]}>Games</li>
-                    <li className={NavbarStyle["navlistitem"]}> News</li>
+                    <li className={`${NavbarStyle.navlistitem} ${NavbarStyle.active}`} >News </li>
                     <li className={NavbarStyle["navlistitem"]}>Career</li>
                     <li className={NavbarStyle["navlistitem"]}>Contact</li>
                 </ul>
@@ -24,7 +24,7 @@ const Navbar = () => {
                     feugiat iaculis porta. Fusce arcu sem, varius at purus at,
                     scelerisque.</p>
             </div>
-        </div>
+        </div >
 
     );
 }
