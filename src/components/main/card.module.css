@@ -1,0 +1,30 @@
+.cardContainer {
+    display: flex;
+    /* border: solid red; */
+    padding: 32px 62px;
+    gap: 24px;
+    align-items: center;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 1px;
+    border-color: #D6DAE0;
+}
+
+/* .Img {
+    height: 242px;
+} */
+
+.cardContent {
+    /* border: solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    /* height: 100%; */
+}
+
+.cardTitle {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
