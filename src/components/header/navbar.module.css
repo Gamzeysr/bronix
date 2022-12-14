@@ -10,3 +10,45 @@
     font-size: 24px;
 
 }
+
+.active {
+    font-weight: 700;
+}
+
+.ulimgContainer {
+    /* border: solid red; */
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* 👆yazıları img yı bıraz daha ortaladık  */
+    padding-top: 53px;
+}
+
+
+.navbarContainer {
+    background-color: rgba(218, 218, 253, 0.5);
+    height: 378px;
+    padding: 0 80px;
+
+}
+
+.h2pContainer {
+    /* 👇news ve text imizi üstten boşluk bıraktırdık */
+    margin-top: 77px;
+}
+
+.h2title {
+    color: #181E4B;
+    font-weight: 900;
+    font-size: 64px;
+    margin: 0;
+    /* font-family: "Hartwell"; */
+}
+
+
+
+.ptext {
+    font-size: 24px;
+    margin-top: 16px;
+}
