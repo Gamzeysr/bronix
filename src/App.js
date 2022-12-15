@@ -1,7 +1,8 @@
 import Header from "./components/header/Navbar";
 import Footer from "./components/footer/Footer";
 import ContactUs from "./components/contactus/ContactUs";
-import Main from "./components/main/Card";
+import Main from "./components/main/Main";
+
 
 
 
@@ -14,6 +15,7 @@ function App() {
       <Main />
       <ContactUs />
       <Footer />
+
 
     </>
   );
