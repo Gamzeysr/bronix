@@ -1,6 +1,11 @@
 
 import CardStyle from "./card.module.css";
 import Icon from "../../assets/icon.png";
+
+
+
+
+
 const Card = () => {
     return (
         <div className={CardStyle["cardContainer"]}>
@@ -17,9 +22,9 @@ const Card = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Bibendum
                     vitae dictumst sit vitae, mi imperdiet sit. Lectus eleifend aliquam
                     nibh mauris, pretium. Lectus magnis lorem massa urna.</p>
-                <div >
-                    <p>text</p>
-                    <div>
+                <div className={CardStyle["altContent"]}>
+                    <p className={CardStyle["altText"]}>text</p>
+                    <div className={CardStyle["altDiv"]}>
                         <img src={Icon} alt="icon" />
                         <p>Beğen</p>
                     </div>

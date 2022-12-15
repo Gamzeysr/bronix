@@ -43,16 +43,16 @@
 
 }
 
-.h2pContainer {
+.hpContainer {
     /* border: solid red; */
     /* 👇news ve text imizi üstten boşluk bıraktırdık */
     margin-top: 77px;
 
 }
 
-.h2title {
+.htitle {
 
-    margin: 0;
+    /* margin: 0;
     font-family: 'Hartwell';
     font-style: normal;
     font-weight: 900;
@@ -60,10 +60,13 @@
     line-height: 74px;
     display: flex;
     align-items: center;
+    color: #181E4B; */
+    margin: 0;
+    font-weight: 900;
+    font-size: 64px;
     color: #181E4B;
+
 }
-
-
 
 .ptext {
     font-family: 'Hartwell';
@@ -73,7 +76,7 @@
     line-height: 32px;
     letter-spacing: -0.04em;
     color: #181E4B;
-    /* padding: 8px; */
+
 
 }
 

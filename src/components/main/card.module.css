@@ -35,3 +35,26 @@
     font-size: 18px;
     font-family: "Lato", sans-serif;
 }
+
+.altContent {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Lato", sans-serif;
+}
+
+.altText {
+    color: #2D2F3080;
+    font-size: 16px;
+}
+
+.altDiv {
+    display: flex;
+    gap: 4px;
+
+}
+
+.altDiv p {
+    font-size: 18px;
+    color: #F16A22;
+    font-weight: 600;
+}

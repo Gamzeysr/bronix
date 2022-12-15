@@ -18,8 +18,8 @@ const Navbar = () => {
                     <li className={NavbarStyle.navlistitem}>Contact</li>
                 </ul>
             </div >
-            <div className={NavbarStyle.h2pContainer}>
-                <h2 className={NavbarStyle.h2title}>News</h2>
+            <div className={NavbarStyle.hpContainer}>
+                <h2 className={NavbarStyle.htitle}>News</h2>
                 <p className={NavbarStyle.ptext}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
                     feugiat iaculis porta. Fusce arcu sem, varius at purus at,
                     scelerisque.</p>
