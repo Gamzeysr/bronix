@@ -27,4 +27,11 @@
     margin: 0;
     font-size: 28px;
     font-weight: 700;
+    /* Hartwell  */
+}
+
+.cardText {
+    /* border: solid red; */
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
 }
